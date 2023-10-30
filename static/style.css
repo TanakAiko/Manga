@@ -1,0 +1,44 @@
+body {
+    background-color: #EAE7DC;
+    background-size: cover;
+    /* Pour redimensionner l'image pour remplir tout l'arrière-plan */
+    background-repeat: no-repeat;
+    /* Pour empêcher la répétition de l'image */
+    background-attachment: fixed;
+    /* Pour que l'image reste fixe lors du défilement de la page */
+    background-position: center center;
+    /* Pour centrer l'image à l'arrière-plan */
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    border: #8E8D8A groove;
+    color: #E85A4F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    font-size: 100%;
+}
+
+.title {
+    font-size: xx-large;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centre verticalement */
+    justify-content: center;
+    /* Centre horizontalement */
+    margin-left: auto;
+    font-size: 100%;
+}
